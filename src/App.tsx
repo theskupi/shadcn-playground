@@ -1,10 +1,12 @@
-import "./App.css"
-import Button from "@mui/material/Button"
+import { Navigation } from "./components/Nav"
 
 function App() {
   return (
     <div className="App">
-      <Button variant="text">Text</Button>
+      <Navigation />
+      <div className="main">
+        <div className="DateBooking"></div>
+      </div>
     </div>
   )
 }
