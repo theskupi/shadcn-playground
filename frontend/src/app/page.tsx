@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import { DatePickerWithRange } from '@/components/custom/DatePicker'
 import { CustomModal } from '@/components/custom/Modal'
+import { ProfileForm } from '@/components/custom/Form/Form'
 
 export default function Home() {
 	return (
@@ -62,6 +63,11 @@ export default function Home() {
 					<h2>Popover showcase</h2>
 					<DatePickerWithRange />
 				</article>
+			</section>
+
+			<section>
+				<h2>Form showcase</h2>
+				<ProfileForm />
 			</section>
 		</main>
 	)
