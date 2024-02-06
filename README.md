@@ -1,2 +1,2 @@
-# MicroLearning system
-Currently serves as Shadcn playground
+# Shadcn playground
+Trying implementation of shadcn in Next.js project here
