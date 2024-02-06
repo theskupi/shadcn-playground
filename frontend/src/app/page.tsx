@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 import Image from 'next/image'
 import { DatePickerWithMonthYear } from '@/components/custom/DatePicker'
 import { CustomModal } from '@/components/custom/Modal'
-import { ProfileForm } from '@/components/custom/Form/Form'
+import { ProfileForm } from '@/components/custom/Form'
 import {
 	Card,
 	CardHeader,
@@ -41,7 +41,7 @@ export default function Home() {
 								<div className="mb-2 flex gap-1">
 									<Button variant="default">Submit</Button>
 									<Button variant="outline">Cancel</Button>
-									<Button className='purple'>Purple</Button>
+									<Button className="purple">Purple</Button>
 									<Button variant="destructive">Delete</Button>
 									<Button variant="ghost">Ghost button</Button>
 									<Button variant="link">Link button</Button>
