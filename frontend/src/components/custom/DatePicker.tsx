@@ -36,8 +36,8 @@ export function DatePickerWithMonthYear() {
 					mode="single"
 					selected={date}
 					onSelect={setDate}
-					fromYear={currentYear - 5}
-					toYear={currentYear + 5}
+					fromYear={currentYear - 50}
+					toYear={currentYear + 50}
 					captionLayout="dropdown-buttons"
 				/>
 			</PopoverContent>
