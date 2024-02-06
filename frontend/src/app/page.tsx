@@ -41,6 +41,7 @@ export default function Home() {
 								<div className="mb-2 flex gap-1">
 									<Button variant="default">Submit</Button>
 									<Button variant="outline">Cancel</Button>
+									<Button className='purple'>Purple</Button>
 									<Button variant="destructive">Delete</Button>
 									<Button variant="ghost">Ghost button</Button>
 									<Button variant="link">Link button</Button>
