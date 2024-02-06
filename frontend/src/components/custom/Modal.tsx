@@ -18,7 +18,7 @@ export function CustomModal() {
 	return (
 		<Dialog>
 			<DialogTrigger asChild>
-				<Button variant="outline">Share</Button>
+				<Button variant="outline">Open modal</Button>
 			</DialogTrigger>
 			<DialogContent className="sm:max-w-md">
 				<DialogHeader>
